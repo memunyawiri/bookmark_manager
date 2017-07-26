@@ -10,5 +10,4 @@ feature 'Adding tags' do
     link = Link.first
     expect(link.tags.map(&:name)).to include('education')
   end
-  
 end
