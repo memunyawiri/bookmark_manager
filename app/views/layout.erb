@@ -8,6 +8,7 @@
     <% if current_user %>
     Welcome, <%= current_user.email %>
     <% end %>
+  <br>
   <% if flash[:errors] && !flash[:errors].empty?  %>
    Sorry, the following issues have occured when you tried to sign up:
    <ul id='errors'>
